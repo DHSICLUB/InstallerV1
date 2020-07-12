@@ -1,0 +1,50 @@
+import os
+import sys
+import time
+
+os.system('clear')
+time.sleep(1)
+os.system('figlet INSTALLER')
+time.sleep(1)
+print "****************************************************"
+time.sleep(1)
+print "*                                                  *"
+print "* Author : Mrdn441                                 *"
+time.sleep(1)
+print "* Github : https://github.com/mrdn441              *"
+print "*                                                  *"
+time.sleep(1)
+print "* gunakan script ini untuk installer kalian        *"
+print "*                                                  *"
+time.sleep(1)
+print "* Jangan disalah gunakan ya                        *"
+print "*                                                  *"
+time.sleep(1)
+print "* gunakan sebaik mungkin oke                       *"
+print "*                                                  *"
+time.sleep(1)
+print "****************************************************"
+time.sleep(1)
+print
+print "[+] Menu Pilih [+]"
+time.sleep(1)
+print "[1] Install bahan"
+time.sleep(1)
+print "[2] exit"
+time.sleep(1)
+pilih = raw_input('[?] Pilih : ')
+if pilih == "1":
+              os.system ('pkg update && pkg upgrade')
+              time.sleep(1)
+              os.system ('pkg install python2 && pkg install git')
+              time.sleep(1)
+              os.system ('pkg install nano && pkg install figlet')
+              time.sleep(1)
+              os.system ('pkg install toilet')
+              time.sleep(1)
+              os.system ('pip2 install requests mechanize')
+              print "[+] Penginstallan Selesai [+]"
+              time.sleep(1)
+elif pilih == "2":
+	             print "[+] Sampai jumpa [+]
+	             os.system ('exit')
